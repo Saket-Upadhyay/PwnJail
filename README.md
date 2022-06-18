@@ -1,9 +1,9 @@
-# PwnLaunch
+# PwnJail
 A nsjail-based, automated vulnerable app/challenge launcher via docker for CTFs and Cybersecurity Training
 
 
 * Who this is for?
-* Why PwnLaunch
+* Why PwnJail
 * [How to Build](README.md#how-to-build)
 * [How to use](README.md#how-to-use)
 * [Credits](README.md#credits)
@@ -19,19 +19,19 @@ Example:
 3. Vulnerability Testers
 
 
-### Why PwnLaunch?
+### Why PwnJail?
 When I was trying to learn ROP and other binary exploits, I stumbled upon many archived CTF challenges but I was not able to set up an environment for them.
 It took me 2 days to set up my first docker environment for practice. I understand how painful it can be to build it every time from scratch if something goes wrong or you are setting up a new set of challenges to practice on;
 
-So I took just one more day to automate the whole process which works well in 2022 (unlike some old scrap abominations I found on GitHub) so that you can focus on your practice/challenge and leave setting up everything else on PwnLaunch!
+So I took just one more day to automate the whole process which works well in 2022 (unlike some old scrap abominations I found on GitHub) so that you can focus on your practice/challenge and leave setting up everything else on PwnJail!
 
 ## How to build?
 
-1. Clone this repo by `git clone https://github.com/Saket-Upadhyay/PwnLaunch.git`
+1. Clone this repo by `git clone https://github.com/Saket-Upadhyay/PwnJail.git`
 2. Copy your vulnerable application in the **./chal** folder
 3. If you have a flag, copy it in **./flag/flag**
-4. Change your current directory to PwnLaunch `cd PwnLaunch`
-5. Build docker image by `./BuildDockerimage.sh` or `docker compose build` in the root directory of PwnLaunch
+4. Change your current directory to PwnJail `cd PwnJail`
+5. Build docker image by `./BuildDockerimage.sh` or `docker compose build` in the root directory of PwnJail
 
 > Note: You should have a docker image named `pwnlaunch_main`; check this by `docker images`
 
@@ -49,7 +49,7 @@ So I took just one more day to automate the whole process which works well in 20
 
 ## License
 
-This project is made by Saket Upadhyay and is available under [MIT License](https://github.com/Saket-Upadhyay/PwnLaunch/blob/main/LICENSE).
+This project is made by Saket Upadhyay and is available under [MIT License](https://github.com/Saket-Upadhyay/PwnJail/blob/main/LICENSE).
 
 ---
 ##### Tested on
