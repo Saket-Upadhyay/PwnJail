@@ -3,7 +3,7 @@ A nsjail-based, automated vulnerable app/challenge launcher via docker for CTFs 
 
 ![](./.docs/pwnjail_banner.png)
 
-* Who this is for?
+* Who is this for?
 * [How to Build](README.md#how-to-build)
 * [How to use](README.md#how-to-use)
 * Why PwnJail?
