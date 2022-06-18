@@ -19,7 +19,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-nsjail --config /etc/nsjail.cfg -d
+pwnjail --config /etc/pwnjail.cfg -d
 
 # kill and restart
 # nohup socat TCP-LISTEN:9999,fork,bind=localhost  EXEC:/rerun.sh 2>> /tmp/rerun.log & 

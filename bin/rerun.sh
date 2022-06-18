@@ -40,6 +40,6 @@ then
   fi
 else
   echo "[+] Ready to start to your challenge"
-  kill -9 $(ps aux | grep 'nsjail' | awk '{print $2}')
-  nsjail --config /etc/nsjail.cfg -d
+  kill -9 $(ps aux | grep 'pwnjail' | awk '{print $2}')
+  pwnjail --config /etc/pwnjail.cfg -d
 fi

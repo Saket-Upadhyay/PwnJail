@@ -67,7 +67,7 @@ RUN useradd challenger
 
 # Building NS Jail
 COPY ./bin/nsjail/ /nsjail
-RUN cd /nsjail && make && mv /nsjail/nsjail /bin
+RUN cd /nsjail && make && mv /nsjail/nsjail /bin/pwnjail
 RUN rm -rf /nsjail
 
 # Setting up directories
@@ -94,15 +94,15 @@ RUN chmod 644 /home/ctf/flag && chown root:root /home/ctf
 ADD ./bin/rerun.sh /
 RUN chmod 755 /rerun.sh
 
-ADD ./bin/nsjailexec.sh /
-RUN chmod +x /nsjailexec.sh
+ADD ./bin/pwnjailexec.sh /
+RUN chmod +x /pwnjailexec.sh
 
 ADD ./bin/start.sh /etc/my_init.d/
 RUN chmod u+x /etc/my_init.d/start.sh
 
-# Adding nsjail configuration from ./bin/nsjail
-ADD ./bin/nsjail.cfg /etc/
-RUN chmod 644 /etc/nsjail.cfg
+# Adding pwnjail configuration from ./bin/pwnjail.cfg
+ADD ./bin/pwnjail.cfg /etc/
+RUN chmod 644 /etc/pwnjail.cfg
 
 # Exposing port 1337 for communication; change this if needed
 EXPOSE 1337

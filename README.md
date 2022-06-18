@@ -24,16 +24,16 @@ Example:
 2. Copy your vulnerable application in the **./chal** folder
 3. If you have a flag, copy it in **./flag/flag**
 4. Change your current directory to PwnJail `cd PwnJail`
-5. Build docker image by `./BuildDockerimage.sh` or `docker compose build` in the root directory of PwnJail
+5. Build docker image by `./BuildDockerimage.sh`, `./BuildDockerimage_Windows.ps1` or `docker compose build` in the root directory of PwnJail
 
 > Note: You should have a docker image named `pwnjail_launcher`; check this by `docker images`
 
 ## How to use
-1. Run `runPWNLaunch.sh` and wait for the docker shell to open
-2. In docker's shell run `/nsjailexec.sh` or `nsjail --config /etc/nsjail.cfg`
+1. Run `runPWNJail.sh` or `runPWNJail_Windows.ps1` and wait for the docker shell to open
+2. In docker's shell run `/pwnjailexec.sh` or `pwnjail --config /etc/pwnjail.cfg`
 3. To exit press `CTRL+C`
 
-> Note: To run in detached mode type `nsjail --config /etc/nsjail.cfg -d`
+> Note: To run in detached mode type `pwnjail --config /etc/pwnjail.cfg -d`
 
 
 ### Why PwnJail?
