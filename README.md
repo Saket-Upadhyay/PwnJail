@@ -1,6 +1,7 @@
 # PwnJail
 A nsjail-based, automated vulnerable app/challenge launcher via docker for CTFs and Cybersecurity Training
 
+![](./.docs/pwnjail_banner.png)
 
 * Who this is for?
 * Why PwnJail
@@ -47,7 +48,7 @@ So I took just one more day to automate the whole process which works well in 20
 1. This project uses Google's opensource NSJail [https://github.com/google/nsjail](https://github.com/google/nsjail)
 2. The sample challenge in ./chal/return-to-what is taken from [DownUnderCTF/Challenges_2020_public](https://github.com/DownUnderCTF/Challenges_2020_public/tree/master/pwn/return-to-what)
 3. The main banner of this project is created in photoshop using following free vectors and fonts-
-* [Wire fence](https://www.freepik.com/free-vector/metal-mesh-fence-with-steel-spiral-barbed-wire_5867905.htm) vector created by upklyak
+* [Wire fence](https://www.freepik.com/free-vector/grid-fence-with-barbed-wire_10385677.htm) vector created by upklyak
 * [Octin Prison](https://typodermicfonts.com/octin-prison/) Free by Typodermic Fonts
 * [Jail vector](https://www.freepik.com/free-vector/chriminal-height-mugshot-lines-police-verification_10317724.htm) created by starline
 
