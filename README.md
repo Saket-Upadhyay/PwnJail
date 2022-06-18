@@ -33,19 +33,23 @@ So I took just one more day to automate the whole process which works well in 20
 4. Change your current directory to PwnJail `cd PwnJail`
 5. Build docker image by `./BuildDockerimage.sh` or `docker compose build` in the root directory of PwnJail
 
-> Note: You should have a docker image named `pwnlaunch_main`; check this by `docker images`
+> Note: You should have a docker image named `pwnjail_launcher`; check this by `docker images`
 
 ## How to use?
 1. Run `runPWNLaunch.sh` and wait for the docker shell to open
 2. In docker's shell run `/nsjailexec.sh` or `nsjail --config /etc/nsjail.cfg`
 3. To exit press `CTRL+C`
 
-> Note: TO run in detached mode type `nsjail --config /etc/nsjail.cfg -d`
+> Note: To run in detached mode type `nsjail --config /etc/nsjail.cfg -d`
 
 
 ## Credits
 1. This project uses Google's opensource NSJail [https://github.com/google/nsjail](https://github.com/google/nsjail)
 2. The sample challenge in ./chal/return-to-what is taken from [DownUnderCTF/Challenges_2020_public](https://github.com/DownUnderCTF/Challenges_2020_public/tree/master/pwn/return-to-what)
+3. The main banner of this project is created in photoshop using following free vectors and fonts-
+* [Wire fence](https://www.freepik.com/free-vector/metal-mesh-fence-with-steel-spiral-barbed-wire_5867905.htm) vector created by upklyak
+* [Octin Prison](https://typodermicfonts.com/octin-prison/) Free by Typodermic Fonts
+* [Jail vector](https://www.freepik.com/free-vector/chriminal-height-mugshot-lines-police-verification_10317724.htm) created by starline
 
 ## License
 
