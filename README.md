@@ -50,3 +50,9 @@ So I took just one more day to automate the whole process which works well in 20
 ## License
 
 This project is made by Saket Upadhyay and is available under [MIT License](https://github.com/Saket-Upadhyay/PwnLaunch/blob/main/LICENSE).
+
+---
+##### Tested on
+1. Ubuntu 22.04 kernel 5.15.0; Docker version 20.10.17, build 100c701
+
+Note: NSJail is used in this project is a static build of nsjail 3.1, you can replace contents of ./bin/nsjail to build your prefered version.
