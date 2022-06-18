@@ -19,7 +19,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-docker run --privileged -p 1337:1337 -it pwnlaunch_main
+docker run --privileged -p 1337:1337 -it pwnjail_launcher
 
 # --privileged is needed for nsjail to create process clones [runChild()] using clone(2) [https://www.man7.org/linux/man-pages/man2/clone.2.html]
 # It took me 30 mins to find the cause of my perpetual nsjail crash lol
