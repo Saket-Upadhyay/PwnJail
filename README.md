@@ -4,12 +4,11 @@ A nsjail-based, automated vulnerable app/challenge launcher via docker for CTFs 
 ![](./.docs/pwnjail_banner.png)
 
 * Who this is for?
-* Why PwnJail
 * [How to Build](README.md#how-to-build)
 * [How to use](README.md#how-to-use)
+* Why PwnJail?
 * [Credits](README.md#credits)
 * [License](README.md#license)
-
 
 ### Who is this for?
 Anyone who wants to set up an isolated environment for their next vulnerable code deployment in minutes!
@@ -19,14 +18,7 @@ Example:
 2. CTF Organisers
 3. Vulnerability Testers
 
-
-### Why PwnJail?
-When I was trying to learn ROP and other binary exploits, I stumbled upon many archived CTF challenges but I was not able to set up an environment for them.
-It took me 2 days to set up my first docker environment for practice. I understand how painful it can be to build it every time from scratch if something goes wrong or you are setting up a new set of challenges to practice on;
-
-So I took just one more day to automate the whole process which works well in 2022 (unlike some old scrap abominations I found on GitHub) so that you can focus on your practice/challenge and leave setting up everything else on PwnJail!
-
-## How to build?
+## How to build
 
 1. Clone this repo by `git clone https://github.com/Saket-Upadhyay/PwnJail.git`
 2. Copy your vulnerable application in the **./chal** folder
@@ -36,12 +28,19 @@ So I took just one more day to automate the whole process which works well in 20
 
 > Note: You should have a docker image named `pwnjail_launcher`; check this by `docker images`
 
-## How to use?
+## How to use
 1. Run `runPWNLaunch.sh` and wait for the docker shell to open
 2. In docker's shell run `/nsjailexec.sh` or `nsjail --config /etc/nsjail.cfg`
 3. To exit press `CTRL+C`
 
 > Note: To run in detached mode type `nsjail --config /etc/nsjail.cfg -d`
+
+
+### Why PwnJail?
+When I was trying to learn ROP and other binary exploits, I stumbled upon many archived CTF challenges but I was not able to set up an environment for them.
+It took me 2 days to set up my first docker environment for practice. I understand how painful it can be to do it every time from scratch if something goes wrong or you are setting up a new set of challenges to practice on.
+
+So I took one more day to automate the whole process which works well in 2022 (unlike some old scrap abominations I found on GitHub) so that you can focus on your practice/challenge and leave setting up everything else on PwnJail!
 
 
 ## Credits
