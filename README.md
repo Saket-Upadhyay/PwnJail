@@ -60,5 +60,6 @@ This project is made by Saket Upadhyay and is available under [MIT License](http
 ---
 ##### Tested on
 1. Ubuntu 22.04 kernel 5.15.0; Docker version 20.10.17, build 100c701
+2. Windows 11 Education Version 21H2 OS build 22000.739; Docker version 20.10.16, build aa7e414
 
 Note: NSJail is used in this project is a static build of nsjail 3.1, you can replace contents of ./bin/nsjail to build your prefered version.
