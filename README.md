@@ -26,7 +26,7 @@ Example:
 4. Change your current directory to PwnJail `cd PwnJail`
 5. Build docker image by `./BuildDockerimage.sh`, `./BuildDockerimage_Windows.ps1` or `docker compose build` in the root directory of PwnJail
 
-![](https://github.com/Saket-Upadhyay/PwnJail/blob/main/.docs/pwnjail%20build.gif)
+![](./.docs/pwnjailbuild.gif)
 
 > Note: You should have a docker image named `pwnjail_launcher`; check this by `docker images`
 
