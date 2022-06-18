@@ -5,9 +5,9 @@ A nsjail-based, automated vulnerable app/challenge launcher via docker for CTFs 
 * Who this is for?
 * Why PwnLaunch
 * [How to Build](README.md#how-to-build)
-* [How to use]()
-* [Credits]()
-* [License]()
+* [How to use](README.md#how-to-use)
+* [Credits](README.md#credits)
+* [License](README.md#license)
 
 
 ### Who is this for?
