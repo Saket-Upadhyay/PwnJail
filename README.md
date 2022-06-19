@@ -1,5 +1,5 @@
 # PwnJail
-A nsjail-based, automated process/binary isolation via docker for CTFs and Cybersecurity Training
+A google/nsjail and Docker-based automated vulnerable binary isolation tool for CTFs and Cybersecurity Training; Set up an isolated environment for your next vulnerable binary in minutes!
 
 ![](./.docs/pwnjail_banner.png)
 
