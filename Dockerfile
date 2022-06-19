@@ -35,6 +35,8 @@ RUN apt-get -y update && apt-get install -y \
     gcc \
     g++ \
     git \
+    vim \
+    python2.7 \
     netcat \
     net-tools \
     socat \

@@ -34,7 +34,7 @@ Example:
 1. Run `runPWNJail.sh` or `runPWNJail_Windows.ps1` and wait for the docker shell to open
 2. In docker's shell run `/pwnjailexec.sh` or `pwnjail --config /etc/pwnjail.cfg`
 3. To exit press `CTRL+C`
-
+![](./.docs/pwnjailrun.gif)
 > Note: To run in detached mode type `pwnjail --config /etc/pwnjail.cfg -d`
 
 
