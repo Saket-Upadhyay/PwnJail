@@ -1,5 +1,5 @@
 # PwnJail
-A nsjail-based, automated vulnerable app/challenge launcher via docker for CTFs and Cybersecurity Training
+A nsjail-based, automated process/binary isolation via docker for CTFs and Cybersecurity Training
 
 ![](./.docs/pwnjail_banner.png)
 
